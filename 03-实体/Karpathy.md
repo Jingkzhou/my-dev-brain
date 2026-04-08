@@ -1,3 +1,9 @@
+---
+type: 实体
+entity_type: 人物
+keywords: [Karpathy, LLM, AI, 深度学习]
+---
+
 # Karpathy
 
 ## 简介

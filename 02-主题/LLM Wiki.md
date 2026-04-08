@@ -1,3 +1,8 @@
+---
+type: 主题
+keywords: [LLM Wiki, 知识维护, Wiki, 外部记忆, 知识分层]
+---
+
 # LLM Wiki
 
 ## 定义

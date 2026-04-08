@@ -1,3 +1,9 @@
+---
+type: 实体
+entity_type: 产品
+keywords: [Obsidian, 笔记, 知识库, Markdown]
+---
+
 # Obsidian
 
 ## 简介
