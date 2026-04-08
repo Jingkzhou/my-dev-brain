@@ -399,6 +399,21 @@
   - `04-综合/梦境/README.md`
   - `05-日志/log.md`
 
+## [2026-04-08] setup | 知识库检索架构改造
+
+- type: setup
+- summary: 为实现 LLM agent 自主高效管理知识库，对整体架构进行系统改造。核心变更：CLAUDE.md/AGENTS.md 写入四层检索策略（L0路由表→L1实体页→L2提炼页→L3原文页）、新增规则页类型、frontmatter 标准化要求、Query/Ingest/Lint 流程重写。
+- changed:
+  - `CLAUDE.md`：新增检索策略段、规则页类型、frontmatter 写作约定，重写 Query/Ingest/Lint 操作流程
+  - `AGENTS.md`：与 CLAUDE.md 同步
+  - `04-综合/监管系统-报表清单.md`：改造为 LLM 路由表，新增关键词列和规则页列
+  - `90-模板/提炼模板-监管.md`：新建，含 frontmatter + 问题索引段
+  - `90-模板/实体模板.md`：更新，加 frontmatter + 常见问题段
+  - `90-模板/规则模板.md`：新建
+  - `01-资料库/1104系统/提炼/*.md`（×8）：添加 frontmatter + 问题索引段
+  - `03-实体/*.md`（×12）：添加 frontmatter
+  - `02-主题/贸易融资-报表口径.md`：升级为完整规则页，含表间校验和6张报表口径对照
+
 ## [2026-04-08] lint | 巡检监管知识层与主题层结构
 
 - type: lint
