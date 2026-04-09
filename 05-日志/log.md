@@ -2,6 +2,13 @@
 
 按时间追加记录操作。每条条目以 `## [YYYY-MM-DD] type | 标题` 格式开头，方便解析。
 
+## [2026-04-09] query | 主题与资料库的区分
+
+- type: query
+- summary: 明确 `02-主题/` 与 `01-资料库/` 的职责边界，区分“原始资料沉淀层”和“稳定知识组织层”。
+- changed:
+  - `05-日志/log.md`
+
 ## [2026-04-08] setup | Dream 升级机制 + 积压回写
 
 - type: setup
@@ -14,6 +21,21 @@
   - `00-首页/我的目标.md`：增加业务场景验证 + 认知压缩目标
   - `00-首页/我的偏好.md`：增加主动指出趋势/阻塞的协作偏好
   - `06-项目/当前学习地图.md`：增加知识路由设计、口径冲突管理、证据层分离、自我建模 4 个学习轴
+
+## [2026-04-09] query | Gemma 多模态微调方法学习
+
+- type: query
+- summary: 阅读 `mattmireles/gemma-tuner-multimodal` 仓库，提炼 Gemma 3n / 4 在文本、图像、音频场景下的 LoRA 微调工程路径，并沉淀为资料页与主题页。
+- source:
+  - `https://github.com/mattmireles/gemma-tuner-multimodal`
+- changed:
+  - `00-首页/index.md`
+  - `01-资料库/README.md`
+  - `01-资料库/2026-04-09-Gemma Multimodal Fine-Tuner.md`
+  - `02-主题/README.md`
+  - `02-主题/Gemma多模态微调.md`
+  - `05-日志/log.md`
+  - `06-项目/当前学习地图.md`
 
 ## [2026-04-05] setup | 初始化知识库骨架
 
